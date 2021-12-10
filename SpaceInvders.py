@@ -26,9 +26,9 @@ border.pensize(3)
 
 # border
 for i in range(4):
-    painter.forward(600)
-    painter.left(90)
-painter.hideturtle()
+    border.forward(600)
+    border.left(90)
+border.hideturtle()
 
 # Score
 score = 0
