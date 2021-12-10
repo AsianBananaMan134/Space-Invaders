@@ -1,6 +1,5 @@
 # Space Invaders.py
 import turtle as trtl
-import os
 import math
 import random as rand
 
@@ -121,10 +120,10 @@ gun_speed = 10
 gunstate = "ready"
 
 # keyboard
-trtl.listen()
-trtl.onkey(move_left, "a")
-trtl.onkey(move_right, "d")
-trtl.onkey(fire_gun, "space")
+wn.listen()
+wn.onkey(move_left, "a")
+wn.onkey(move_right, "d")
+wn.onkey(fire_gun, "space")
 
 # Number of Enemies
 num_of_enemies = 30
